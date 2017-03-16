@@ -3,7 +3,8 @@ var n = 0;
 var left = document.getElementsByClassName('head')
 document.getElementsByClassName('button')[1].addEventListener('click', function (event) {
     if (n == (document.getElementsByClassName('pic').length - 4) * 320) {
-        event.preventDefault();
+        n=0;
+        left[0].style.right = n + "px"
     }
     else {
         n = n + 320;
