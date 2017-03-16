@@ -1,11 +1,12 @@
 .main{
     margin: 0 auto;
-     width: 75%;
+     width: 1280px;;
      overflow: hidden;
 }
 .head{
     position: relative;
-    width: 4000px;
+    width: 60000px;
+    transition:all 0.5s;
      
 }
 .pic{
@@ -23,7 +24,10 @@
     color: white;
 }
 .button{
-    padding: 20px;
-    left: 44%;
+    padding: 15px 50px;;
+    left: 38%;
     position: relative;
+}
+.left{
+    margin-left: 25px;
 }
